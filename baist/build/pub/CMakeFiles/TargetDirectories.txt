@@ -1,0 +1,10 @@
+/home/baist/baist/build/pub/CMakeFiles/uninstall.dir
+/home/baist/baist/build/pub/CMakeFiles/pub_uninstall.dir
+/home/baist/baist/build/pub/CMakeFiles/publisher.dir
+/home/baist/baist/build/pub/CMakeFiles/test.dir
+/home/baist/baist/build/pub/CMakeFiles/edit_cache.dir
+/home/baist/baist/build/pub/CMakeFiles/rebuild_cache.dir
+/home/baist/baist/build/pub/CMakeFiles/list_install_components.dir
+/home/baist/baist/build/pub/CMakeFiles/install.dir
+/home/baist/baist/build/pub/CMakeFiles/install/local.dir
+/home/baist/baist/build/pub/CMakeFiles/install/strip.dir

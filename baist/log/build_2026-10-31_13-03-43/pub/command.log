@@ -1,0 +1,4 @@
+Invoking command in '/home/baist/baist/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/build/pub -- -j8 -l8
+Invoked command in '/home/baist/baist/build/pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/build/pub -- -j8 -l8
+Invoking command in '/home/baist/baist/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/baist/baist/build/pub
+Invoked command in '/home/baist/baist/build/pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/baist/baist/build/pub

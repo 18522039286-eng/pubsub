@@ -1,0 +1,5 @@
+[0.093s] Invoking command in '/home/baist/baist/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/build/pub -- -j8 -l8
+[0.388s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.461s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[24.461s] [100%] [32m[1mLinking CXX executable publisher[0m
+[25.008s] [100%] Built target publisher

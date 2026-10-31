@@ -1,0 +1,61 @@
+[0.089s] Invoking command in '/home/baist/baist/build/sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/baist/baist/src/sub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baist/baist/install/sub
+[0.494s] -- The C compiler identification is GNU 11.4.0
+[0.959s] -- The CXX compiler identification is GNU 11.4.0
+[1.011s] -- Detecting C compiler ABI info
+[1.556s] -- Detecting C compiler ABI info - done
+[1.610s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.610s] -- Detecting C compile features
+[1.611s] -- Detecting C compile features - done
+[1.624s] -- Detecting CXX compiler ABI info
+[2.142s] -- Detecting CXX compiler ABI info - done
+[2.176s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.179s] -- Detecting CXX compile features
+[2.182s] -- Detecting CXX compile features - done
+[2.190s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.054s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.458s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.554s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[3.721s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.740s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.776s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.822s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.889s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.061s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.069s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.579s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.721s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.955s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.989s] -- Looking for pthread.h
+[5.533s] -- Looking for pthread.h - found
+[5.538s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.135s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.146s] -- Found Threads: TRUE  
+[6.421s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.471s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.065s] -- Added test 'lint_cmake' to check CMake code style
+[7.069s] -- Added test 'xmllint' to check XML markup files
+[7.080s] -- Configuring done
+[7.108s] -- Generating done
+[7.119s] -- Build files have been written to: /home/baist/baist/build/sub
+[7.160s] Invoked command in '/home/baist/baist/build/sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/baist/baist/src/sub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baist/baist/install/sub
+[7.164s] Invoking command in '/home/baist/baist/build/sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/build/sub -- -j8 -l8
+[7.440s] Invoked command in '/home/baist/baist/build/sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/build/sub -- -j8 -l8
+[7.446s] Invoking command in '/home/baist/baist/build/sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/baist/baist/build/sub
+[7.490s] -- Install configuration: ""
+[7.492s] -- Execute custom install script
+[7.493s] -- Symlinking: /home/baist/baist/install/sub/share/ament_index/resource_index/package_run_dependencies/sub
+[7.552s] -- Symlinking: /home/baist/baist/install/sub/share/ament_index/resource_index/parent_prefix_path/sub
+[7.601s] -- Symlinking: /home/baist/baist/install/sub/share/sub/environment/ament_prefix_path.sh
+[7.652s] -- Symlinking: /home/baist/baist/install/sub/share/sub/environment/ament_prefix_path.dsv
+[7.698s] -- Symlinking: /home/baist/baist/install/sub/share/sub/environment/path.sh
+[7.757s] -- Symlinking: /home/baist/baist/install/sub/share/sub/environment/path.dsv
+[7.820s] -- Symlinking: /home/baist/baist/install/sub/share/sub/local_setup.bash
+[7.873s] -- Symlinking: /home/baist/baist/install/sub/share/sub/local_setup.sh
+[7.920s] -- Symlinking: /home/baist/baist/install/sub/share/sub/local_setup.zsh
+[7.976s] -- Symlinking: /home/baist/baist/install/sub/share/sub/local_setup.dsv
+[8.028s] -- Symlinking: /home/baist/baist/install/sub/share/sub/package.dsv
+[8.090s] -- Symlinking: /home/baist/baist/install/sub/share/ament_index/resource_index/packages/sub
+[8.134s] -- Symlinking: /home/baist/baist/install/sub/share/sub/cmake/subConfig.cmake
+[8.183s] -- Symlinking: /home/baist/baist/install/sub/share/sub/cmake/subConfig-version.cmake
+[8.234s] -- Symlinking: /home/baist/baist/install/sub/share/sub/package.xml
+[8.379s] Invoked command in '/home/baist/baist/build/sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/baist/baist/build/sub

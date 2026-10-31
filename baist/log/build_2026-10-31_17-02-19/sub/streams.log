@@ -1,0 +1,25 @@
+[0.103s] Invoking command in '/home/baist/baist/build/sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/build/sub -- -j8 -l8
+[0.474s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[55.160s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[57.028s] [100%] Built target subscriber
+[57.098s] Invoked command in '/home/baist/baist/build/sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/build/sub -- -j8 -l8
+[57.108s] Invoking command in '/home/baist/baist/build/sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/baist/baist/build/sub
+[57.155s] -- Install configuration: ""
+[57.159s] -- Execute custom install script
+[57.160s] -- Up-to-date symlink: /home/baist/baist/install/sub/lib/sub/subscriber
+[57.163s] -- Up-to-date symlink: /home/baist/baist/install/sub/share/ament_index/resource_index/package_run_dependencies/sub
+[57.164s] -- Up-to-date symlink: /home/baist/baist/install/sub/share/ament_index/resource_index/parent_prefix_path/sub
+[57.164s] -- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/environment/ament_prefix_path.sh
+[57.165s] -- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/environment/ament_prefix_path.dsv
+[57.166s] -- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/environment/path.sh
+[57.166s] -- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/environment/path.dsv
+[57.167s] -- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/local_setup.bash
+[57.167s] -- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/local_setup.sh
+[57.169s] -- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/local_setup.zsh
+[57.170s] -- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/local_setup.dsv
+[57.170s] -- Symlinking: /home/baist/baist/install/sub/share/sub/package.dsv
+[57.222s] -- Up-to-date symlink: /home/baist/baist/install/sub/share/ament_index/resource_index/packages/sub
+[57.224s] -- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/cmake/subConfig.cmake
+[57.225s] -- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/cmake/subConfig-version.cmake
+[57.226s] -- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/package.xml
+[57.240s] Invoked command in '/home/baist/baist/build/sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/baist/baist/build/sub

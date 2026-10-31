@@ -1,0 +1,24 @@
+[0.092s] Invoking command in '/home/baist/baist/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/build/pub -- -j8 -l8
+[0.323s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.422s] [100%] Built target publisher
+[0.486s] Invoked command in '/home/baist/baist/build/pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/build/pub -- -j8 -l8
+[0.534s] Invoking command in '/home/baist/baist/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/baist/baist/build/pub
+[0.573s] -- Install configuration: ""
+[0.575s] -- Execute custom install script
+[0.579s] -- Up-to-date symlink: /home/baist/baist/install/pub/lib/pub/publisher
+[0.583s] -- Up-to-date symlink: /home/baist/baist/install/pub/share/ament_index/resource_index/package_run_dependencies/pub
+[0.585s] -- Up-to-date symlink: /home/baist/baist/install/pub/share/ament_index/resource_index/parent_prefix_path/pub
+[0.588s] -- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/environment/ament_prefix_path.sh
+[0.589s] -- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/environment/ament_prefix_path.dsv
+[0.590s] -- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/environment/path.sh
+[0.591s] -- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/environment/path.dsv
+[0.593s] -- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/local_setup.bash
+[0.595s] -- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/local_setup.sh
+[0.596s] -- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/local_setup.zsh
+[0.596s] -- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/local_setup.dsv
+[0.596s] -- Symlinking: /home/baist/baist/install/pub/share/pub/package.dsv
+[0.641s] -- Up-to-date symlink: /home/baist/baist/install/pub/share/ament_index/resource_index/packages/pub
+[0.642s] -- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/cmake/pubConfig.cmake
+[0.643s] -- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/cmake/pubConfig-version.cmake
+[0.643s] -- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/package.xml
+[0.650s] Invoked command in '/home/baist/baist/build/pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/baist/baist/build/pub

@@ -1,0 +1,31 @@
+[0.084s] Invoking command in '/home/baist/baist/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/build/pub -- -j8 -l8
+[0.481s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[19.099s] [01m[K/home/baist/baist/src/pub/src/publisher.cpp:20:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[19.100s]    20 | }
+[19.101s]       |  [01;31m[K^[m[K
+[19.101s]       |  [32m[K;[m[K
+[19.123s] [01m[K/home/baist/baist/src/pub/src/publisher.cpp:[m[K In constructor ‘[01m[Kposepublisher::posepublisher()[m[K’:
+[19.123s] [01m[K/home/baist/baist/src/pub/src/publisher.cpp:11:8:[m[K [01;31m[Kerror: [m[K‘[01m[Krate[m[K’ was not declared in this scope
+[19.123s]    11 |        [01;31m[Krate[m[K = this->declare_parameter<double>("rate",10.0);
+[19.123s]       |        [01;31m[K^~~~[m[K
+[19.130s] [01m[K/home/baist/baist/src/pub/src/publisher.cpp:12:25:[m[K [01;31m[Kerror: [m[K‘[01m[KQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KQoS[m[K’?
+[19.131s]    12 |        auto qos=rclcpp::[01;31m[KQos[m[K(rclcpp::Keeplast(10)).reliable();
+[19.131s]       |                         [01;31m[K^~~[m[K
+[19.131s]       |                         [32m[KQoS[m[K
+[19.132s] [01m[K/home/baist/baist/src/pub/src/publisher.cpp:12:37:[m[K [01;31m[Kerror: [m[K‘[01m[KKeeplast[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KKeepLast[m[K’?
+[19.133s]    12 |        auto qos=rclcpp::Qos(rclcpp::[01;31m[KKeeplast[m[K(10)).reliable();
+[19.133s]       |                                     [01;31m[K^~~~~~~~[m[K
+[19.133s]       |                                     [32m[KKeepLast[m[K
+[19.149s] [01m[K/home/baist/baist/src/pub/src/publisher.cpp:13:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_pub_[m[K’ was not declared in this scope
+[19.149s]    13 |        [01;31m[Kpose_pub_[m[K =this->create_publisher<geometry_msgs::msg::PoseStamped>("/pose",qos);
+[19.150s]       |        [01;31m[K^~~~~~~~~[m[K
+[19.172s] [01m[K/home/baist/baist/src/pub/src/publisher.cpp:14:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kplan_timer_[m[K’ was not declared in this scope
+[19.173s]    14 |        [01;31m[Kplan_timer_[m[K =this->create_wall_timer(
+[19.173s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[19.173s] [01m[K/home/baist/baist/src/pub/src/publisher.cpp:16:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanloop[m[K’ is not a member of ‘[01m[Kposepublisher[m[K’
+[19.174s]    16 |         std::bind(&posepublisher::[01;31m[Kplanloop[m[K,this)
+[19.178s]       |                                   [01;31m[K^~~~~~~~[m[K
+[23.138s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+[23.152s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/publisher.dir/all] Error 2
+[23.153s] gmake: *** [Makefile:146: all] Error 2
+[23.272s] Invoked command in '/home/baist/baist/build/pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/build/pub -- -j8 -l8

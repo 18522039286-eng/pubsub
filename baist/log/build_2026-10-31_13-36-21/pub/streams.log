@@ -1,0 +1,11 @@
+[0.106s] Invoking command in '/home/baist/baist/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/build/pub -- -j8 -l8
+[0.356s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.455s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[15.884s] [01m[K/home/baist/baist/src/pub/src/publisher.cpp:45:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[15.885s]    45 | }
+[15.887s]       |  [01;31m[K^[m[K
+[15.887s]       |  [32m[K;[m[K
+[22.383s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+[22.384s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/publisher.dir/all] Error 2
+[22.388s] gmake: *** [Makefile:146: all] Error 2
+[22.393s] Invoked command in '/home/baist/baist/build/pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/build/pub -- -j8 -l8

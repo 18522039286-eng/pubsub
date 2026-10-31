@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.002244] (-) JobUnselected: {'identifier': 'sub'}
+[0.002622] (pub) JobQueued: {'identifier': 'pub', 'dependencies': OrderedDict()}
+[0.005411] (pub) JobStarted: {'identifier': 'pub'}
+[0.055512] (pub) JobProgress: {'identifier': 'pub', 'progress': 'cmake'}
+[0.056005] (pub) Command: {'cmd': ['/usr/bin/cmake', '/home/baist/baist/src/pub', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/baist/baist/install/pub'], 'cwd': '/home/baist/baist/build/pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'baist'), ('LC_TIME', 'zh_CN.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/baist/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/274/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/baist'), ('CHROME_DESKTOP', 'code_code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/baist/baist'), ('TERM_PROGRAM_VERSION', '1.144.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/274/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/baist/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/274/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/274/usr/share/code/code'), ('MANAGERPID', '1685'), ('SYSTEMD_EXEC_PID', '1856'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3437'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/baist/baist/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'baist'), ('JOURNAL_STREAM', '8:23711'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'baist'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/baist-virtual-machine:@/tmp/.ICE-unix/1824,unix/baist-virtual-machine:/tmp/.ICE-unix/1824'), ('GTK_EXE_PREFIX', '/snap/code/274/usr'), ('INVOCATION_ID', 'ce390819874b4f4f80b09acc32ff237a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/274/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FS2WX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1cb6e65a95.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/baist/snap/code/274/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/baist/baist/install/sub:/home/baist/baist/install/pub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/baist/baist/build/pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/baist/snap/code/274/.local/share:/home/baist/snap/code/274:/snap/code/274/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/baist/baist/install/sub:/home/baist/baist/install/pub:/opt/ros/humble')]), 'shell': False}
+[0.099864] (-) TimerEvent: {}
+[0.201257] (-) TimerEvent: {}
+[0.304386] (-) TimerEvent: {}
+[0.406281] (-) TimerEvent: {}
+[0.508237] (-) TimerEvent: {}
+[0.588619] (pub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.608645] (-) TimerEvent: {}
+[0.710698] (-) TimerEvent: {}
+[0.814023] (-) TimerEvent: {}
+[0.915399] (-) TimerEvent: {}
+[0.933511] (pub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.978085] (pub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.016093] (-) TimerEvent: {}
+[1.117814] (-) TimerEvent: {}
+[1.220156] (-) TimerEvent: {}
+[1.321373] (-) TimerEvent: {}
+[1.426093] (-) TimerEvent: {}
+[1.509393] (pub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.529142] (-) TimerEvent: {}
+[1.539766] (pub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.541176] (pub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.542177] (pub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.555488] (pub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.630110] (-) TimerEvent: {}
+[1.731347] (-) TimerEvent: {}
+[1.832416] (-) TimerEvent: {}
+[1.934348] (-) TimerEvent: {}
+[2.036076] (-) TimerEvent: {}
+[2.069716] (pub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.105993] (pub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.108211] (pub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.109421] (pub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.122039] (pub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.139003] (-) TimerEvent: {}
+[2.240265] (-) TimerEvent: {}
+[2.341756] (-) TimerEvent: {}
+[2.445313] (-) TimerEvent: {}
+[2.546328] (-) TimerEvent: {}
+[2.647410] (-) TimerEvent: {}
+[2.748600] (-) TimerEvent: {}
+[2.850067] (-) TimerEvent: {}
+[2.930340] (pub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.950285] (-) TimerEvent: {}
+[3.051263] (-) TimerEvent: {}
+[3.153672] (-) TimerEvent: {}
+[3.244788] (pub) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.254014] (-) TimerEvent: {}
+[3.354008] (pub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.355265] (-) TimerEvent: {}
+[3.456247] (-) TimerEvent: {}
+[3.524044] (pub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.542056] (pub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.557055] (-) TimerEvent: {}
+[3.577801] (pub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.630325] (pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.657452] (-) TimerEvent: {}
+[3.701604] (pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.758058] (-) TimerEvent: {}
+[3.860317] (-) TimerEvent: {}
+[3.886690] (pub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.896394] (pub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.961264] (-) TimerEvent: {}
+[4.063278] (-) TimerEvent: {}
+[4.164841] (-) TimerEvent: {}
+[4.266509] (-) TimerEvent: {}
+[4.364508] (pub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.366845] (-) TimerEvent: {}
+[4.468320] (-) TimerEvent: {}
+[4.480976] (pub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.569937] (-) TimerEvent: {}
+[4.671087] (-) TimerEvent: {}
+[4.689214] (pub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.720997] (pub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.771666] (-) TimerEvent: {}
+[4.874280] (-) TimerEvent: {}
+[4.977120] (-) TimerEvent: {}
+[5.078736] (-) TimerEvent: {}
+[5.159642] (pub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.161147] (pub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.179000] (-) TimerEvent: {}
+[5.281301] (-) TimerEvent: {}
+[5.386039] (-) TimerEvent: {}
+[5.488202] (-) TimerEvent: {}
+[5.590148] (-) TimerEvent: {}
+[5.693086] (-) TimerEvent: {}
+[5.705467] (pub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.712455] (pub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.793848] (-) TimerEvent: {}
+[5.896119] (-) TimerEvent: {}
+[5.972037] (pub) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.996602] (-) TimerEvent: {}
+[6.030519] (pub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.096974] (-) TimerEvent: {}
+[6.201286] (-) TimerEvent: {}
+[6.302094] (-) TimerEvent: {}
+[6.403109] (-) TimerEvent: {}
+[6.505842] (-) TimerEvent: {}
+[6.524576] (pub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.526446] (pub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.527103] (pub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.528526] (pub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.534070] (pub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.534587] (pub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.535365] (pub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.544000] (pub) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.588487] (pub) StdoutLine: {'line': b'-- Generating done\n'}
+[6.604871] (pub) StdoutLine: {'line': b'-- Build files have been written to: /home/baist/baist/build/pub\n'}
+[6.607103] (-) TimerEvent: {}
+[6.641069] (pub) CommandEnded: {'returncode': 0}
+[6.653450] (pub) JobProgress: {'identifier': 'pub', 'progress': 'build'}
+[6.653807] (pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/baist/baist/build/pub', '--', '-j8', '-l8'], 'cwd': '/home/baist/baist/build/pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'baist'), ('LC_TIME', 'zh_CN.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/baist/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/274/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/baist'), ('CHROME_DESKTOP', 'code_code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/baist/baist'), ('TERM_PROGRAM_VERSION', '1.144.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/274/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/baist/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/274/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/274/usr/share/code/code'), ('MANAGERPID', '1685'), ('SYSTEMD_EXEC_PID', '1856'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3437'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/baist/baist/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'baist'), ('JOURNAL_STREAM', '8:23711'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'baist'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/baist-virtual-machine:@/tmp/.ICE-unix/1824,unix/baist-virtual-machine:/tmp/.ICE-unix/1824'), ('GTK_EXE_PREFIX', '/snap/code/274/usr'), ('INVOCATION_ID', 'ce390819874b4f4f80b09acc32ff237a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/274/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FS2WX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1cb6e65a95.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/baist/snap/code/274/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/baist/baist/install/sub:/home/baist/baist/install/pub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/baist/baist/build/pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/baist/snap/code/274/.local/share:/home/baist/snap/code/274:/snap/code/274/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/baist/baist/install/sub:/home/baist/baist/install/pub:/opt/ros/humble')]), 'shell': False}
+[6.707540] (-) TimerEvent: {}
+[6.809180] (-) TimerEvent: {}
+[6.912270] (-) TimerEvent: {}
+[7.004713] (pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[7.012975] (-) TimerEvent: {}
+[7.115095] (-) TimerEvent: {}
+[7.216283] (-) TimerEvent: {}
+[7.234602] (pub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[7.317350] (-) TimerEvent: {}
+[7.418288] (-) TimerEvent: {}
+[7.520169] (-) TimerEvent: {}
+[7.621523] (-) TimerEvent: {}
+[7.654703] (pub) StdoutLine: {'line': b'[100%] Built target publisher\n'}
+[7.711239] (pub) CommandEnded: {'returncode': 0}
+[7.714589] (pub) JobProgress: {'identifier': 'pub', 'progress': 'install'}
+[7.721869] (-) TimerEvent: {}
+[7.767103] (pub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/baist/baist/build/pub'], 'cwd': '/home/baist/baist/build/pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'baist'), ('LC_TIME', 'zh_CN.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/baist/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/274/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/baist'), ('CHROME_DESKTOP', 'code_code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/baist/baist'), ('TERM_PROGRAM_VERSION', '1.144.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/274/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/baist/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/274/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/274/usr/share/code/code'), ('MANAGERPID', '1685'), ('SYSTEMD_EXEC_PID', '1856'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3437'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/baist/baist/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'baist'), ('JOURNAL_STREAM', '8:23711'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'baist'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/baist-virtual-machine:@/tmp/.ICE-unix/1824,unix/baist-virtual-machine:/tmp/.ICE-unix/1824'), ('GTK_EXE_PREFIX', '/snap/code/274/usr'), ('INVOCATION_ID', 'ce390819874b4f4f80b09acc32ff237a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/274/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FS2WX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1cb6e65a95.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/baist/snap/code/274/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/baist/baist/install/sub:/home/baist/baist/install/pub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/baist/baist/build/pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/baist/snap/code/274/.local/share:/home/baist/snap/code/274:/snap/code/274/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/baist/baist/install/sub:/home/baist/baist/install/pub:/opt/ros/humble')]), 'shell': False}
+[7.806580] (pub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.809231] (pub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.811561] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/lib/pub/publisher\n'}
+[7.822276] (-) TimerEvent: {}
+[7.861295] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/share/ament_index/resource_index/package_run_dependencies/pub\n'}
+[7.918211] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/share/ament_index/resource_index/parent_prefix_path/pub\n'}
+[7.923115] (-) TimerEvent: {}
+[7.972138] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/share/pub/environment/ament_prefix_path.sh\n'}
+[8.023112] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/share/pub/environment/ament_prefix_path.dsv\n'}
+[8.024060] (-) TimerEvent: {}
+[8.075136] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/share/pub/environment/path.sh\n'}
+[8.124538] (-) TimerEvent: {}
+[8.126729] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/share/pub/environment/path.dsv\n'}
+[8.180944] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/share/pub/local_setup.bash\n'}
+[8.226143] (-) TimerEvent: {}
+[8.234320] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/share/pub/local_setup.sh\n'}
+[8.287450] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/share/pub/local_setup.zsh\n'}
+[8.327244] (-) TimerEvent: {}
+[8.346946] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/share/pub/local_setup.dsv\n'}
+[8.398414] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/share/pub/package.dsv\n'}
+[8.428080] (-) TimerEvent: {}
+[8.456352] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/share/ament_index/resource_index/packages/pub\n'}
+[8.509389] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/share/pub/cmake/pubConfig.cmake\n'}
+[8.528509] (-) TimerEvent: {}
+[8.560269] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/share/pub/cmake/pubConfig-version.cmake\n'}
+[8.620248] (pub) StdoutLine: {'line': b'-- Symlinking: /home/baist/baist/install/pub/share/pub/package.xml\n'}
+[8.630350] (-) TimerEvent: {}
+[8.698217] (pub) CommandEnded: {'returncode': 0}
+[8.731137] (-) TimerEvent: {}
+[8.793712] (pub) JobEnded: {'identifier': 'pub', 'rc': 0}
+[8.797428] (-) EventReactorShutdown: {}

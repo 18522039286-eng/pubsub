@@ -1,0 +1,1 @@
+/home/baist/baist/build/pub/ament_cmake_core/pubConfig-version.cmake

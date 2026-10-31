@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[100%] Built target subscriber
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/baist/baist/install/sub/lib/sub/subscriber
+-- Up-to-date symlink: /home/baist/baist/install/sub/share/ament_index/resource_index/package_run_dependencies/sub
+-- Up-to-date symlink: /home/baist/baist/install/sub/share/ament_index/resource_index/parent_prefix_path/sub
+-- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/environment/path.sh
+-- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/environment/path.dsv
+-- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/local_setup.bash
+-- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/local_setup.sh
+-- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/local_setup.zsh
+-- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/local_setup.dsv
+-- Symlinking: /home/baist/baist/install/sub/share/sub/package.dsv
+-- Up-to-date symlink: /home/baist/baist/install/sub/share/ament_index/resource_index/packages/sub
+-- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/cmake/subConfig.cmake
+-- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/cmake/subConfig-version.cmake
+-- Up-to-date symlink: /home/baist/baist/install/sub/share/sub/package.xml
