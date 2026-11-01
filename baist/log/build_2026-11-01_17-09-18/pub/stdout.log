@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable publisher[0m
+[100%] Built target publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/baist/baist/install/pub/lib/pub/publisher
+-- Up-to-date symlink: /home/baist/baist/install/pub/share/ament_index/resource_index/package_run_dependencies/pub
+-- Up-to-date symlink: /home/baist/baist/install/pub/share/ament_index/resource_index/parent_prefix_path/pub
+-- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/environment/path.sh
+-- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/environment/path.dsv
+-- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/local_setup.bash
+-- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/local_setup.sh
+-- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/local_setup.zsh
+-- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/local_setup.dsv
+-- Symlinking: /home/baist/baist/install/pub/share/pub/package.dsv
+-- Up-to-date symlink: /home/baist/baist/install/pub/share/ament_index/resource_index/packages/pub
+-- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/cmake/pubConfig.cmake
+-- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/cmake/pubConfig-version.cmake
+-- Up-to-date symlink: /home/baist/baist/install/pub/share/pub/package.xml

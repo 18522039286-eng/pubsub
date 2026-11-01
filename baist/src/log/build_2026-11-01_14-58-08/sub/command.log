@@ -1,0 +1,6 @@
+Invoking command in '/home/baist/baist/src/build/sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/baist/baist/src/sub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baist/baist/src/install/sub
+Invoked command in '/home/baist/baist/src/build/sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/baist/baist/src/sub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baist/baist/src/install/sub
+Invoking command in '/home/baist/baist/src/build/sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/src/build/sub -- -j8 -l8
+Invoked command in '/home/baist/baist/src/build/sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/src/build/sub -- -j8 -l8
+Invoking command in '/home/baist/baist/src/build/sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/baist/baist/src/build/sub
+Invoked command in '/home/baist/baist/src/build/sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/baist/baist/src/build/sub

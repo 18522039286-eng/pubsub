@@ -1,0 +1,194 @@
+[1.656s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.656s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x783b36e5a710>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x783b36e5a260>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x783b36e5a260>>, mixin_verb=('build',))
+[3.642s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.644s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/baist/baist/src'
+[3.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.721s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.722s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.722s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.723s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.724s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.724s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.724s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.725s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.726s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.726s] Level 1:colcon.colcon_core.package_identification:_identify(pub) by extensions ['ignore', 'ignore_ament_install']
+[3.727s] Level 1:colcon.colcon_core.package_identification:_identify(pub) by extension 'ignore'
+[3.727s] Level 1:colcon.colcon_core.package_identification:_identify(pub) by extension 'ignore_ament_install'
+[3.727s] Level 1:colcon.colcon_core.package_identification:_identify(pub) by extensions ['colcon_pkg']
+[3.728s] Level 1:colcon.colcon_core.package_identification:_identify(pub) by extension 'colcon_pkg'
+[3.728s] Level 1:colcon.colcon_core.package_identification:_identify(pub) by extensions ['colcon_meta']
+[3.728s] Level 1:colcon.colcon_core.package_identification:_identify(pub) by extension 'colcon_meta'
+[3.728s] Level 1:colcon.colcon_core.package_identification:_identify(pub) by extensions ['ros']
+[3.728s] Level 1:colcon.colcon_core.package_identification:_identify(pub) by extension 'ros'
+[3.749s] DEBUG:colcon.colcon_core.package_identification:Package 'pub' with type 'ros.ament_cmake' and name 'pub'
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(sub) by extensions ['ignore', 'ignore_ament_install']
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(sub) by extension 'ignore'
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(sub) by extension 'ignore_ament_install'
+[3.751s] Level 1:colcon.colcon_core.package_identification:_identify(sub) by extensions ['colcon_pkg']
+[3.751s] Level 1:colcon.colcon_core.package_identification:_identify(sub) by extension 'colcon_pkg'
+[3.751s] Level 1:colcon.colcon_core.package_identification:_identify(sub) by extensions ['colcon_meta']
+[3.752s] Level 1:colcon.colcon_core.package_identification:_identify(sub) by extension 'colcon_meta'
+[3.752s] Level 1:colcon.colcon_core.package_identification:_identify(sub) by extensions ['ros']
+[3.752s] Level 1:colcon.colcon_core.package_identification:_identify(sub) by extension 'ros'
+[3.757s] DEBUG:colcon.colcon_core.package_identification:Package 'sub' with type 'ros.ament_cmake' and name 'sub'
+[3.757s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.034s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[4.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.263s] Level 5:colcon.colcon_core.verb:set package 'pub' build argument 'cmake_args' from command line to 'None'
+[4.264s] Level 5:colcon.colcon_core.verb:set package 'pub' build argument 'cmake_target' from command line to 'None'
+[4.264s] Level 5:colcon.colcon_core.verb:set package 'pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.264s] Level 5:colcon.colcon_core.verb:set package 'pub' build argument 'cmake_clean_cache' from command line to 'False'
+[4.264s] Level 5:colcon.colcon_core.verb:set package 'pub' build argument 'cmake_clean_first' from command line to 'False'
+[4.265s] Level 5:colcon.colcon_core.verb:set package 'pub' build argument 'cmake_force_configure' from command line to 'False'
+[4.265s] Level 5:colcon.colcon_core.verb:set package 'pub' build argument 'ament_cmake_args' from command line to 'None'
+[4.265s] Level 5:colcon.colcon_core.verb:set package 'pub' build argument 'catkin_cmake_args' from command line to 'None'
+[4.265s] Level 5:colcon.colcon_core.verb:set package 'pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.265s] DEBUG:colcon.colcon_core.verb:Building package 'pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/baist/baist/src/build/pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/baist/baist/src/install/pub', 'merge_install': False, 'path': '/home/baist/baist/src/pub', 'symlink_install': True, 'test_result_base': None}
+[4.267s] Level 5:colcon.colcon_core.verb:set package 'sub' build argument 'cmake_args' from command line to 'None'
+[4.267s] Level 5:colcon.colcon_core.verb:set package 'sub' build argument 'cmake_target' from command line to 'None'
+[4.267s] Level 5:colcon.colcon_core.verb:set package 'sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.267s] Level 5:colcon.colcon_core.verb:set package 'sub' build argument 'cmake_clean_cache' from command line to 'False'
+[4.268s] Level 5:colcon.colcon_core.verb:set package 'sub' build argument 'cmake_clean_first' from command line to 'False'
+[4.268s] Level 5:colcon.colcon_core.verb:set package 'sub' build argument 'cmake_force_configure' from command line to 'False'
+[4.268s] Level 5:colcon.colcon_core.verb:set package 'sub' build argument 'ament_cmake_args' from command line to 'None'
+[4.268s] Level 5:colcon.colcon_core.verb:set package 'sub' build argument 'catkin_cmake_args' from command line to 'None'
+[4.268s] Level 5:colcon.colcon_core.verb:set package 'sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.268s] DEBUG:colcon.colcon_core.verb:Building package 'sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/baist/baist/src/build/sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/baist/baist/src/install/sub', 'merge_install': False, 'path': '/home/baist/baist/src/sub', 'symlink_install': True, 'test_result_base': None}
+[4.269s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.276s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/baist/baist/src/pub' with build type 'ament_cmake'
+[4.277s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/baist/baist/src/pub'
+[4.326s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.348s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/baist/baist/src/sub' with build type 'ament_cmake'
+[4.348s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/baist/baist/src/sub'
+[4.350s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.350s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/baist/baist/src/build/pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/baist/baist/src/pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baist/baist/src/install/pub
+[4.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/baist/baist/src/build/sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/baist/baist/src/sub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baist/baist/src/install/sub
+[14.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/baist/baist/src/build/pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/baist/baist/src/pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baist/baist/src/install/pub
+[14.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/baist/baist/src/build/pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/src/build/pub -- -j8 -l8
+[14.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/baist/baist/src/build/sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/baist/baist/src/sub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/baist/baist/src/install/sub
+[14.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/baist/baist/src/build/sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/src/build/sub -- -j8 -l8
+[50.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/baist/baist/src/build/pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/src/build/pub -- -j8 -l8
+[50.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/baist/baist/src/build/pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/baist/baist/src/build/pub
+[51.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pub)
+[51.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/baist/baist/src/build/pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/baist/baist/src/build/pub
+[51.129s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/pub' for CMake module files
+[51.134s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/pub' for CMake config files
+[51.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('pub', 'cmake_prefix_path')
+[51.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/baist/baist/src/install/pub/share/pub/hook/cmake_prefix_path.ps1'
+[51.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/baist/baist/src/install/pub/share/pub/hook/cmake_prefix_path.dsv'
+[51.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/baist/baist/src/install/pub/share/pub/hook/cmake_prefix_path.sh'
+[51.161s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/pub/lib'
+[51.162s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/pub/bin'
+[51.162s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/pub/lib/pkgconfig/pub.pc'
+[51.163s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/pub/lib/python3.10/site-packages'
+[51.164s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/pub/bin'
+[51.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/pub/share/pub/package.ps1'
+[51.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/baist/baist/src/install/pub/share/pub/package.dsv'
+[51.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/pub/share/pub/package.sh'
+[51.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/pub/share/pub/package.bash'
+[51.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/pub/share/pub/package.zsh'
+[51.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/baist/baist/src/install/pub/share/colcon-core/packages/pub)
+[51.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pub)
+[51.210s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/pub' for CMake module files
+[51.212s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/pub' for CMake config files
+[51.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('pub', 'cmake_prefix_path')
+[51.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/baist/baist/src/install/pub/share/pub/hook/cmake_prefix_path.ps1'
+[51.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/baist/baist/src/install/pub/share/pub/hook/cmake_prefix_path.dsv'
+[51.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/baist/baist/src/install/pub/share/pub/hook/cmake_prefix_path.sh'
+[51.223s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/pub/lib'
+[51.223s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/pub/bin'
+[51.224s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/pub/lib/pkgconfig/pub.pc'
+[51.224s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/pub/lib/python3.10/site-packages'
+[51.226s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/pub/bin'
+[51.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/pub/share/pub/package.ps1'
+[51.231s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/baist/baist/src/install/pub/share/pub/package.dsv'
+[51.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/pub/share/pub/package.sh'
+[51.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/pub/share/pub/package.bash'
+[51.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/pub/share/pub/package.zsh'
+[51.247s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/baist/baist/src/install/pub/share/colcon-core/packages/pub)
+[70.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/baist/baist/src/build/sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/baist/baist/src/build/sub -- -j8 -l8
+[70.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/baist/baist/src/build/sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/baist/baist/src/build/sub
+[71.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub)
+[71.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/baist/baist/src/build/sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/baist/baist/src/build/sub
+[71.170s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/sub' for CMake module files
+[71.172s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/sub' for CMake config files
+[71.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub', 'cmake_prefix_path')
+[71.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/baist/baist/src/install/sub/share/sub/hook/cmake_prefix_path.ps1'
+[71.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/baist/baist/src/install/sub/share/sub/hook/cmake_prefix_path.dsv'
+[71.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/baist/baist/src/install/sub/share/sub/hook/cmake_prefix_path.sh'
+[71.182s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/sub/lib'
+[71.182s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/sub/bin'
+[71.183s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/sub/lib/pkgconfig/sub.pc'
+[71.183s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/sub/lib/python3.10/site-packages'
+[71.185s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/sub/bin'
+[71.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/sub/share/sub/package.ps1'
+[71.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/baist/baist/src/install/sub/share/sub/package.dsv'
+[71.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/sub/share/sub/package.sh'
+[71.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/sub/share/sub/package.bash'
+[71.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/sub/share/sub/package.zsh'
+[71.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/baist/baist/src/install/sub/share/colcon-core/packages/sub)
+[71.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub)
+[71.201s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/sub' for CMake module files
+[71.203s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/sub' for CMake config files
+[71.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub', 'cmake_prefix_path')
+[71.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/baist/baist/src/install/sub/share/sub/hook/cmake_prefix_path.ps1'
+[71.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/baist/baist/src/install/sub/share/sub/hook/cmake_prefix_path.dsv'
+[71.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/baist/baist/src/install/sub/share/sub/hook/cmake_prefix_path.sh'
+[71.215s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/sub/lib'
+[71.216s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/sub/bin'
+[71.216s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/sub/lib/pkgconfig/sub.pc'
+[71.217s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/sub/lib/python3.10/site-packages'
+[71.219s] Level 1:colcon.colcon_core.environment:checking '/home/baist/baist/src/install/sub/bin'
+[71.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/sub/share/sub/package.ps1'
+[71.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/baist/baist/src/install/sub/share/sub/package.dsv'
+[71.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/sub/share/sub/package.sh'
+[71.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/sub/share/sub/package.bash'
+[71.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/baist/baist/src/install/sub/share/sub/package.zsh'
+[71.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/baist/baist/src/install/sub/share/colcon-core/packages/sub)
+[71.238s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[71.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[71.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[71.241s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[71.303s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[71.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[71.304s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[71.452s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[71.454s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/baist/baist/src/install/local_setup.ps1'
+[71.462s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/baist/baist/src/install/_local_setup_util_ps1.py'
+[71.470s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/baist/baist/src/install/setup.ps1'
+[71.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/baist/baist/src/install/local_setup.sh'
+[71.484s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/baist/baist/src/install/_local_setup_util_sh.py'
+[71.487s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/baist/baist/src/install/setup.sh'
+[71.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/baist/baist/src/install/local_setup.bash'
+[71.497s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/baist/baist/src/install/setup.bash'
+[71.503s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/baist/baist/src/install/local_setup.zsh'
+[71.509s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/baist/baist/src/install/setup.zsh'
